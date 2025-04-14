@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CorpSolutions S.A.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+ </head>
+
+ <body>
+    <header>
+        <h1>CorpSolutions S.A.</h1>
+        <h2><b>Control de ingreso de visitantes</b></h2>
+    </header>
+
+    <form>
+        <div class="form-group">
+            <label for="cedula">Cédula de identidad</label>
+            <input type="text" class="form-control" id="cedula" placeholder="000-000000-0000X">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Escriba sus nombres completos">
+            <label for="apellidos">Apellidos</label>
+            <input type="text" class="form-control" id="apellidos" placeholder="Escriba sus apellidos completos">  
+        </div>
+        <div class="form-group">
+            <label for="departamento">Departamento</label>
+            <select class="form-control" id="departamento">
+            <option>Seleccione una opción...</option>
+              <option>Ventas</option>
+              <option>Crédito</option>
+              <option>Recursos Humanos</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="motivos">Motivo de la visita</label>
+            <textarea class="form-control" id="motivos" rows="3"></textarea>
+          </div>
+          <button id="registrar" class="btn btn-primary" type="submit">Registrar</button>
+    </form>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CorpSolutions S.A. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>   
+</html>
