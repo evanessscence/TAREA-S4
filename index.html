@@ -16,34 +16,38 @@
         <h2><b>Control de ingreso de visitantes</b></h2>
     </header>
 
-    <form>
-        <div class="form-group">
-            <label for="cedula">Cédula de identidad</label>
-            <input type="text" class="form-control" id="cedula" placeholder="000-000000-0000X">
-            <label for="nombre">Nombre</label>
-            <input type="text" class="form-control" id="nombre" placeholder="Escriba sus nombres completos">
-            <label for="apellidos">Apellidos</label>
-            <input type="text" class="form-control" id="apellidos" placeholder="Escriba sus apellidos completos">  
-        </div>
-        <div class="form-group">
-            <label for="departamento">Departamento</label>
-            <select class="form-control" id="departamento">
-            <option>Seleccione una opción...</option>
-              <option>Ventas</option>
-              <option>Crédito</option>
-              <option>Recursos Humanos</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="motivos">Motivo de la visita</label>
-            <textarea class="form-control" id="motivos" rows="3"></textarea>
-          </div>
-          <button id="registrar" class="btn btn-primary" type="submit">Registrar</button>
-    </form>
+    <main class="container">
+        <form>
+            <div class="form-group">
+                <label for="cedula">Cédula de identidad</label>
+                <input type="text" class="form-control" id="cedula" placeholder="000-000000-0000X">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Escriba sus nombres completos">
+                <label for="apellidos">Apellidos</label>
+                <input type="text" class="form-control" id="apellidos" placeholder="Escriba sus apellidos completos">  
+            </div>
+            <div class="form-group">
+                <label for="departamento">Departamento</label>
+                <select class="form-control" id="departamento">
+                <option>Seleccione una opción...</option>
+                <option>Ventas</option>
+                <option>Crédito</option>
+                <option>Recursos Humanos</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="motivos">Motivo de la visita</label>
+                <textarea class="form-control" id="motivos" rows="3"></textarea>
+            </div>
+            <button id="registrar" class="btn btn-primary" type="submit">Registrar</button>
+        </form>
+    </main> 
+
     <footer>
         <div class="container">
             <p>&copy; 2025 CorpSolutions S.A. Todos los derechos reservados.</p>
         </div>
     </footer>
+    
 </body>   
 </html>
