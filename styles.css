@@ -1,0 +1,145 @@
+/* Estilos generales */
+body {
+    font-family:'Poppins', sans-serif;
+    line-height: 1.5;
+    background-color: #f4f6f8;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor centrado */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+/* Encabezado principal */
+header{
+    background-color: #2c3e50;
+    color:#ffffff;
+    text-align: center;
+    border-bottom: 4px solid #2980b9;
+    
+}
+/* Encabezado ancho completo */
+header.container{
+    max-width: 100% ;
+    width: 100% ;
+    padding-left: 0;
+    padding-right: 0 ;
+    margin: 0 auto;
+    border-radius: 0;
+}
+/* Título */
+header h1{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header h3{
+    color: #bdc3c7
+}
+/* Cuadro del formulario */
+form{
+    background-color: #ffffff;
+    border-radius: 9px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    padding: 30px;
+    border-left: 5px solid #2980b9;
+    border-right: 5px solid #2980b9;
+}
+/* Separación entre campos */
+.form-group{
+    margin-bottom: 20px;
+}
+
+label{
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #34495e;
+}
+/* Campos de entrada */
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+/* Efecto al responder */
+input:focus, select:focus, textarea:focus {
+    border-color: #21676a !important;
+    outline: none !important;
+    box-shadow: 0 0 5px rgba(70, 114, 226, 0.625) !important;
+}
+
+button {
+    background-color: #2980b9 !important;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2c3e50 !important;
+}
+/*Formato de tabla*/
+table {
+    width: 100%;
+    margin-top: 30px;
+    background-color: #ffffff;
+    color: #2c3e50;
+}
+
+/* Encabezado de la tabla */
+thead {
+    background-color: #2980b9 !important;
+    color: white !important;
+}
+/* Celdas */
+th, td {
+    background-color: #ffffff !important;
+    color: #2c3e50 !important;    
+    padding: 12px 15px;
+    border-bottom: 1px solid #2980b9;
+    text-align: left;
+}
+/*Pie de página*/
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 40px;
+    font-size: 0.95rem;
+    border-top: 4px solid #2980b9;
+}
+
+/*Media Query para diseño responsivo*/
+@media (max-width: 768px) { 
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h3 {
+        font-size: 1rem;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
